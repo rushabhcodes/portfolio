@@ -50,19 +50,6 @@
 }
 
 @layer base {
-  body {
-    
-    background-image: 
-      linear-gradient(var(--primary), transparent 4px), 
-      linear-gradient(to right, var(--primary) 4px, var(--background) 4px);
-    background-size: 80px 80px;
-  }
-  
-  .dark body {
-    background-image: 
-      linear-gradient(var(--primary), transparent 4px), 
-      linear-gradient(to right, var(--primary) 4px, var(--background) 4px);
-  }
   * {
     @apply border-border;
   }
