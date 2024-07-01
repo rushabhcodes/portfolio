@@ -26,7 +26,7 @@ export default function Home() {
           <div className="flex flex-col items-center justify-between p-6 sm:p-12 lg:p-24">
             <div className="flex flex-col sm:flex-row min-h-screen justify-center items-center gap-14 sm:gap-20 lg:gap-40">
               <div className="flex flex-col justify-center items-start gap-5 text-center sm:text-left">
-                <h1 className="text-3xl sm:text-4xl lg:text-5xl">👋 Hi, I'm Rushabh Patil. </h1>
+                <h1 className="text-3xl sm:text-4xl lg:text-5xl">👋 Hi, I&apos;m Rushabh Patil. </h1>
                 <p className="text-lg sm:text-xl lg:text-2xl">
                   A people-first Product Designer with a passion for crafting delightful experiences across screens. With a keen eye for clean design, I am dedicated to creating elegant and visually appealing user experiences that elevate complex workflows.
                 </p>
