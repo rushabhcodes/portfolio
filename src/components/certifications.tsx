@@ -1,21 +1,15 @@
-import * as React from "react";
-
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
+import React from "react";
 import { Button } from "./ui/button";
+import { Card, CardContent, CardHeader, CardTitle, CardDescription, CardFooter } from "./ui/card";
 import Image from "next/image";
 import Link from "next/link";
 
-const Projects = () => {
+const Certifications = () => {
   return (
-    <section className="flex flex-col justify-center items-center gap-8 mb-10">
-      <div className="flex justify-center text-4xl font-bold">code:projects</div>
+    <section className="flex flex-col justify-center items-center gap-8">
+      <div className="flex justify-center text-4xl font-bold">
+        code:certifications
+      </div>
       <div className="flex justify-center gap-10 flex-wrap ">
         <Card>
           <CardContent className="flex items-center justify-center p-6">
@@ -90,4 +84,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default Certifications;
