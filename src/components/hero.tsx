@@ -15,7 +15,7 @@ const Hero = () => {
             👋 Hi, I&apos;m Rushabh Patil.{" "}
           </h1>
           <p className="text-lg sm:text-xl lg:text-2xl mt-8">
-            I'm passionate about exploring the intersection of technology and innovation, and I'm actively involved in projects that challenge and expand my understanding of computer systems and software development. Looking forward to connecting and sharing insights with fellow enthusiasts in the field!
+            I&apos;m passionate about exploring the intersection of technology and innovation, and I&apos;m actively involved in projects that challenge and expand my understanding of computer systems and software development. Looking forward to connecting and sharing insights with fellow enthusiasts in the field!
           </p>
           <Button className="mt-8">Resume</Button>
           <div className="flex gap-8 mt-8">

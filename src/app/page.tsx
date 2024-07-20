@@ -2,7 +2,6 @@ import Certifications from "@/components/certifications";
 import Hero from "@/components/hero";
 import Projects from "@/components/projects";
 import Skills from "@/components/skills";
-import { Button } from "@/components/ui/button";
 import { SparklesCore } from "@/components/ui/sparckles";
 
 
