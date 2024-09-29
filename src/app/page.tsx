@@ -11,7 +11,7 @@ export default function Home() {
       <main className="relative">
         {/* Background pattern before main content */}
         <div className="absolute inset-0 bg-pattern-before">
-        <SparklesCore
+        {/* <SparklesCore
           id="tsparticlesfullpage"
           background="transparent"
           minSize={0.6}
@@ -19,7 +19,7 @@ export default function Home() {
           particleDensity={5    }
           className="w-full h-full"
           particleColor="#FFFFFF"
-        />
+        /> */}
         </div>
 
         {/* Main content */}
