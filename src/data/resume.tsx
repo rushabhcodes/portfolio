@@ -1,5 +1,5 @@
 import { Icons } from "@/components/icons";
-import { HomeIcon, NotebookIcon } from "lucide-react";
+import { HomeIcon, LeafyGreen, LucidePlaneTakeoff, NotebookIcon } from "lucide-react";
 
 export const DATA = {
   name: "Rushabh Patil",
@@ -24,13 +24,12 @@ export const DATA = {
     "MongoDB",
     "Postgres",
     "Docker",
-    "Firebase",
     "Python",
   ],
 
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "/blog", icon: NotebookIcon, label: "Blog" },
+    { href: "https://garden.rushabh.dev", icon: LeafyGreen, label: "Digital Garden" },
   ],
 contact: {
   email: "mail@rushabh.dev",
@@ -38,13 +37,13 @@ contact: {
   social: {
     GitHub: {
       name: "GitHub",
-      url: "https://github.com/rushabh",  // Assuming this, let me know if different
+      url: "https://github.com/rushabhscode",
       icon: Icons.github,
       navbar: true,
     },
     LinkedIn: {
       name: "LinkedIn",
-      url: "https://linkedin.com/in/rushabh",  // Assuming, please correct if needed
+      url: "https://linkedin.com/in/rushabh-ganesh-patil",
       icon: Icons.linkedin,
       navbar: true,
     },
@@ -69,7 +68,6 @@ contact: {
   },
 },
 
-
   work: [
     {
       company: "Atomic Finance",
@@ -84,6 +82,7 @@ contact: {
         "Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.",
     },
   ],
+
   education: [
     {
       school: "Buildspace",
@@ -118,6 +117,7 @@ contact: {
       end: "2016",
     },
   ],
+
   projects: [
     {
       title: "MPower",
@@ -198,43 +198,27 @@ contact: {
       video: "",
     },
   ],
+
   hackathons: [
     {
-      title: "Hack Western 5",
-      dates: "November 23rd - 25th, 2018",
-      location: "London, Ontario",
+      title: "AceHack 4.0",
+      dates: "March 29th - 30th, 2025",
+      location: "Jaipur, India",
       description:
-        "Developed a mobile application which delivered bedtime stories to children using augmented reality.",
+        "Developed a legal empowerment app that simplifies interactions with legal documents and services using document scanning, content extraction, translation, text-to-speech, and a marketplace for legal professionals.",
       image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-western.png",
-      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
+        "/hackathon/acehack4.jpg",
       links: [],
     },
     {
-      title: "Waterloo Equithon",
-      dates: "May 5th - 7th, 2017",
-      location: "Waterloo, Ontario",
+      title: "AceHack 3.0",
+      dates: "April 6th - 7th, 2024",
+      location: "Jaipur, India",
       description:
-        "Developed Pocketdoc, an app in which you take a picture of a physical wound, and the app returns common solutions or cures to the injuries or diseases.",
+        "Fine tuned a large language model to generate legal documents and contracts in Hindi, Marathi, and English. Developed a web app that allows users to interact with the model and generate documents.",
       image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/waterloo-equithon.png",
-      links: [
-        {
-          title: "Devpost",
-          icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://devpost.com/software/pocketdoc-react-native",
-        },
-        {
-          title: "YouTube",
-          icon: <Icons.youtube className="h-4 w-4" />,
-          href: "https://www.youtube.com/watch?v=XwFdn5Rmx68",
-        },
-        {
-          title: "Source",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/dillionverma/pocketdoc-react-native",
-        },
-      ],
+        "/hackathon/acehack3.svg",
+      links: [],
     },
   ],
 } as const;
