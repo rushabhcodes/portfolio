@@ -1,5 +1,5 @@
 import { Icons } from "@/components/icons";
-import { HomeIcon, LeafyGreen, LucidePlaneTakeoff, NotebookIcon } from "lucide-react";
+import { Building2, HomeIcon, LeafyGreen, LucidePlaneTakeoff, NotebookIcon } from "lucide-react";
 
 export const DATA = {
   name: "Rushabh Patil",
@@ -85,36 +85,28 @@ contact: {
 
   education: [
     {
-      school: "Buildspace",
-      href: "https://buildspace.so",
-      degree: "s3, s4, sf1, s5",
-      logoUrl: "/buildspace.jpg",
+      school: "VIVA Institute of Technology, Virar",
+      href: "https://www.viva-technology.org/New/",
+      degree: "Computer Engineering ( B.E. )",
+      logoUrl: "https://www.viva-technology.org/New/wp-content/uploads/2014/08/viva-logo-resized-white.png",
       start: "2023",
-      end: "2024",
+      end: "Present",
     },
     {
-      school: "University of Waterloo",
-      href: "https://uwaterloo.ca",
-      degree: "Bachelor's Degree of Computer Science (BCS)",
-      logoUrl: "/waterloo.png",
-      start: "2016",
-      end: "2021",
+      school: "P. G. Jr. College, Bordi ( Gokhale Education Society )",
+      href: "https://scontent.fbom50-1.fna.fbcdn.net/v/t39.30808-1/294073696_433246155482168_3299101997460754672_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=7o6gVg1bL-gQ7kNvwF-opYK&_nc_oc=AdmCKI3vfwriqc7Dp1Oap5WQl5arlCu8lviH9HeTR4kI9KH8YOui5S6C6neG7m0U3vU&_nc_zt=24&_nc_ht=scontent.fbom50-1.fna&_nc_gid=1tAJxtR1fRMf8rP3c9TaRw&oh=00_AfJQCJ0sRraAUl8cTi_ZO3bokLsvzezFIL-BoIwb8OoxMg&oe=683E685A",
+      degree: "XII th ( HSC )",
+      logoUrl: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLWJ1aWxkaW5nMi1pY29uIGx1Y2lkZS1idWlsZGluZy0yIj48cGF0aCBkPSJNNiAyMlY0YTIgMiAwIDAgMSAyLTJoOGEyIDIgMCAwIDEgMiAydjE4WiIvPjxwYXRoIGQ9Ik02IDEySDRhMiAyIDAgMCAwLTIgMnY2YTIgMiAwIDAgMCAyIDJoMiIvPjxwYXRoIGQ9Ik0xOCA5aDJhMiAyIDAgMCAxIDIgMnY5YTIgMiAwIDAgMS0yIDJoLTIiLz48cGF0aCBkPSJNMTAgNmg0Ii8+PHBhdGggZD0iTTEwIDEwaDQiLz48cGF0aCBkPSJNMTAgMTRoNCIvPjxwYXRoIGQ9Ik0xMCAxOGg0Ii8+PC9zdmc+",
+      start: "2020",
+      end: "2022",
     },
     {
-      school: "Wilfrid Laurier University",
-      href: "https://wlu.ca",
-      degree: "Bachelor's Degree of Business Administration (BBA)",
-      logoUrl: "/laurier.png",
-      start: "2016",
-      end: "2021",
-    },
-    {
-      school: "International Baccalaureate",
-      href: "https://ibo.org",
-      degree: "IB Diploma",
-      logoUrl: "/ib.png",
+      school: "St. Mary's High School",
+      href: "https://www.facebook.com/stmarysdahanu/",
+      degree: "X th ( SSC )",
+      logoUrl: "https://scontent.fbom50-1.fna.fbcdn.net/v/t39.30808-1/294073696_433246155482168_3299101997460754672_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=7o6gVg1bL-gQ7kNvwF-opYK&_nc_oc=AdmCKI3vfwriqc7Dp1Oap5WQl5arlCu8lviH9HeTR4kI9KH8YOui5S6C6neG7m0U3vU&_nc_zt=24&_nc_ht=scontent.fbom50-1.fna&_nc_gid=1tAJxtR1fRMf8rP3c9TaRw&oh=00_AfJQCJ0sRraAUl8cTi_ZO3bokLsvzezFIL-BoIwb8OoxMg&oe=683E685A",
       start: "2012",
-      end: "2016",
+      end: "2019",
     },
   ],
 
