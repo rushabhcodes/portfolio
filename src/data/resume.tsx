@@ -1,5 +1,5 @@
 import { Icons } from "@/components/icons";
-import { Building2, HomeIcon, LeafyGreen, LucidePlaneTakeoff, NotebookIcon } from "lucide-react";
+import { HomeIcon, Globe, LeafyGreen } from "lucide-react";
 
 export const DATA = {
   name: "Rushabh Patil",
@@ -11,7 +11,7 @@ export const DATA = {
     "Fullstack wizard, converts air into code. Passionate about building impactful products and empowering communities.",
   summary:
     "I'm currently pursuing a degree in Computer Engineering and constantly exploring new technologies. I enjoy learning, contributing to open source, developing tools that improve the developer experience, and participating in hackathons to challenge myself and learn by doing.",
-  avatarUrl: "/me.png",
+  avatarUrl: "/me.jpg",
   skills: [
     "JavaScript",
     "TypeScript",
@@ -29,55 +29,59 @@ export const DATA = {
 
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "https://garden.rushabh.dev", icon: LeafyGreen, label: "Digital Garden" },
+    {
+      href: "https://garden.rushabh.dev",
+      icon: LeafyGreen,
+      label: "Digital Garden",
+    },
   ],
-contact: {
-  email: "mail@rushabh.dev",
-  tel: "+919511660256",
-  social: {
-    GitHub: {
-      name: "GitHub",
-      url: "https://github.com/rushabhscode",
-      icon: Icons.github,
-      navbar: true,
-    },
-    LinkedIn: {
-      name: "LinkedIn",
-      url: "https://linkedin.com/in/rushabh-ganesh-patil",
-      icon: Icons.linkedin,
-      navbar: true,
-    },
-    X: {
-      name: "X",
-      url: "https://x.com/rushabhstwt",
-      icon: Icons.x,
-      navbar: true,
-    },
-    Instagram: {
-      name: "Instagram",
-      url: "https://instagram.com/rushabhsig",
-      icon: Icons.instasgram, 
-      navbar: true,
-    },
-    email: {
-      name: "Send Email",
-      url: "mailto:mail@rushabh.dev",
-      icon: Icons.email,
-      navbar: false,
+  contact: {
+    email: "mail@rushabh.dev",
+    tel: "+919511660256",
+    social: {
+      GitHub: {
+        name: "GitHub",
+        url: "https://github.com/rushabhscode",
+        icon: Icons.github,
+        navbar: true,
+      },
+      LinkedIn: {
+        name: "LinkedIn",
+        url: "https://linkedin.com/in/rushabh-ganesh-patil",
+        icon: Icons.linkedin,
+        navbar: true,
+      },
+      X: {
+        name: "X",
+        url: "https://x.com/rushabhstwt",
+        icon: Icons.x,
+        navbar: true,
+      },
+      Instagram: {
+        name: "Instagram",
+        url: "https://instagram.com/rushabhsig",
+        icon: Icons.instasgram,
+        navbar: true,
+      },
+      email: {
+        name: "Send Email",
+        url: "mailto:mail@rushabh.dev",
+        icon: Icons.email,
+        navbar: false,
+      },
     },
   },
-},
 
   work: [
     {
-      company: "Atomic Finance",
+      company: "Adani, Thermal Power Plant",
       href: "https://atomic.finance",
       badges: [],
-      location: "Remote",
-      title: "Bitcoin Protocol Engineer",
+      location: "On-Site",
+      title: "Software Engineer Intern",
       logoUrl: "/atomic.png",
-      start: "May 2021",
-      end: "Oct 2022",
+      start: "Jul 2025",
+      end: "Sep 2025",
       description:
         "Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.",
     },
@@ -88,7 +92,8 @@ contact: {
       school: "VIVA Institute of Technology, Virar",
       href: "https://www.viva-technology.org/New/",
       degree: "Computer Engineering ( B.E. )",
-      logoUrl: "https://www.viva-technology.org/New/wp-content/uploads/2014/08/viva-logo-resized-white.png",
+      logoUrl:
+        "https://www.viva-technology.org/New/wp-content/uploads/2014/08/viva-logo-resized-white.png",
       start: "2023",
       end: "Present",
     },
@@ -96,7 +101,8 @@ contact: {
       school: "P. G. Jr. College, Bordi ( Gokhale Education Society )",
       href: "https://scontent.fbom50-1.fna.fbcdn.net/v/t39.30808-1/294073696_433246155482168_3299101997460754672_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=7o6gVg1bL-gQ7kNvwF-opYK&_nc_oc=AdmCKI3vfwriqc7Dp1Oap5WQl5arlCu8lviH9HeTR4kI9KH8YOui5S6C6neG7m0U3vU&_nc_zt=24&_nc_ht=scontent.fbom50-1.fna&_nc_gid=1tAJxtR1fRMf8rP3c9TaRw&oh=00_AfJQCJ0sRraAUl8cTi_ZO3bokLsvzezFIL-BoIwb8OoxMg&oe=683E685A",
       degree: "XII th ( HSC )",
-      logoUrl: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLWJ1aWxkaW5nMi1pY29uIGx1Y2lkZS1idWlsZGluZy0yIj48cGF0aCBkPSJNNiAyMlY0YTIgMiAwIDAgMSAyLTJoOGEyIDIgMCAwIDEgMiAydjE4WiIvPjxwYXRoIGQ9Ik02IDEySDRhMiAyIDAgMCAwLTIgMnY2YTIgMiAwIDAgMCAyIDJoMiIvPjxwYXRoIGQ9Ik0xOCA5aDJhMiAyIDAgMCAxIDIgMnY5YTIgMiAwIDAgMS0yIDJoLTIiLz48cGF0aCBkPSJNMTAgNmg0Ii8+PHBhdGggZD0iTTEwIDEwaDQiLz48cGF0aCBkPSJNMTAgMTRoNCIvPjxwYXRoIGQ9Ik0xMCAxOGg0Ii8+PC9zdmc+",
+      logoUrl:
+        "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLWJ1aWxkaW5nMi1pY29uIGx1Y2lkZS1idWlsZGluZy0yIj48cGF0aCBkPSJNNiAyMlY0YTIgMiAwIDAgMSAyLTJoOGEyIDIgMCAwIDEgMiAydjE4WiIvPjxwYXRoIGQ9Ik06IDEySDRhMiAyIDAgMCAwLTIgMnY2YTIgMiAwIDAgMCAyIDJoMiIvPjxwYXRoIGQ9Ik0xOCA5aDJhMiAyIDAgMCAxIDIgMnY5YTIgMiAwIDAgMS0yIDJoLTIiLz48cGF0aCBkPSJNMTAgNmg0Ii8+PHBhdGggZD0iTTEwIDEwaDQiLz48cGF0aCBkPSJNMTAgMTRoNCIvPjxwYXRoIGQ9Ik0xMCAxOGg0Ii8+PC9zdmc+",
       start: "2020",
       end: "2022",
     },
@@ -104,13 +110,31 @@ contact: {
       school: "St. Mary's High School",
       href: "https://www.facebook.com/stmarysdahanu/",
       degree: "X th ( SSC )",
-      logoUrl: "https://scontent.fbom50-1.fna.fbcdn.net/v/t39.30808-1/294073696_433246155482168_3299101997460754672_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=7o6gVg1bL-gQ7kNvwF-opYK&_nc_oc=AdmCKI3vfwriqc7Dp1Oap5WQl5arlCu8lviH9HeTR4kI9KH8YOui5S6C6neG7m0U3vU&_nc_zt=24&_nc_ht=scontent.fbom50-1.fna&_nc_gid=1tAJxtR1fRMf8rP3c9TaRw&oh=00_AfJQCJ0sRraAUl8cTi_ZO3bokLsvzezFIL-BoIwb8OoxMg&oe=683E685A",
+      logoUrl:
+        "https://scontent.fbom50-1.fna.fbcdn.net/v/t39.30808-1/294073696_433246155482168_3299101997460754672_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=7o6gVg1bL-gQ7kNvwF-opYK&_nc_oc=AdmCKI3vfwriqc7Dp1Oap5WQl5arlCu8lviH9HeTR4kI9KH8YOui5S6C6neG7m0U3vU&_nc_zt=24&_nc_ht=scontent.fbom50-1.fna&_nc_gid=1tAJxtR1fRMf8rP3c9TaRw&oh=00_AfJQCJ0sRraAUl8cTi_ZO3bokLsvzezFIL-BoIwb8OoxMg&oe=683E685A",
       start: "2012",
       end: "2019",
     },
   ],
 
   projects: [
+    {
+      title: "Primeflix",
+      href: "",
+      dates: "",
+      active: true,
+      description: "",
+      technologies: ["React Native", "Nativewind", "TMDB API"],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/rushabhcodes/primeflix",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "",
+    },
     {
       title: "MPower",
       href: "https://mpower.example.com",
@@ -198,8 +222,17 @@ contact: {
       location: "Jaipur, India",
       description:
         "Developed a legal empowerment app that simplifies interactions with legal documents and services using document scanning, content extraction, translation, text-to-speech, and a marketplace for legal professionals.",
+      image: "/hackathon/acehack4.jpg",
+      links: [],
+    },
+    {
+      title: "Level SuperMind Hackathon",
+      dates: "January 18 – 19, 2025",
+      location: "Mumbai, Maharashtra, India",
+      description:
+        "Built an AstroTalk-style consultation app featuring real-time session booking, state-managed chat, and a clean, calming UI. This project combined cultural insights with technical expertise, resulting in a user-centric experience I am proud of.",
       image:
-        "/hackathon/acehack4.jpg",
+        "https://cdn.prod.website-files.com/674ad949a9a9dac6c88af770/674c4677c29e9c0c25c2f571_faviconV2%20(2).png",
       links: [],
     },
     {
@@ -207,9 +240,38 @@ contact: {
       dates: "April 6th - 7th, 2024",
       location: "Jaipur, India",
       description:
-        "Fine tuned a large language model to generate legal documents and contracts in Hindi, Marathi, and English. Developed a web app that allows users to interact with the model and generate documents.",
+        "Fine-tuned a large language model to generate legal documents and contracts in Hindi, Marathi, and English. Built a web app enabling users to interact with the model and generate documents effortlessly.",
+      image: "/hackathon/acehack3.svg",
+      links: [],
+    },
+
+    {
+      title: "HackSparrow (E-Cell Terna)",
+      dates: "March 22 - 24, 2024",
+      location: "Mumbai, Maharashtra, India",
+      description:
+        "Developed a full-stack voting app to decentralize elections using Web3, MetaMask, and Solidity. Ensured real-time, tamper-proof voting with blockchain-backed transparency and no central control. This purposeful build remains a highlight of my journey.",
       image:
-        "/hackathon/acehack3.svg",
+        "https://hackodyssey.devfolio.co/_next/image?url=https%3A%2F%2Fassets.devfolio.co%2Fhackathons%2Fcf7124eed86446e1b5ddabb1c504d739%2Fassets%2Ffavicon%2F783.png&w=1440&q=75",
+      links: [],
+    },
+    {
+      title: "HACKX 2.0 (NMIMS IEEE)",
+      dates: "March 16 - 17, 2024",
+      location: "Mumbai, Maharashtra, India",
+      description:
+        "Crafted a Web 2.0 productivity dashboard that aggregates content from platforms like Reddit, YouTube, and Medium, adapting to user goals and moods. Integrated smart filters, a task manager, daily digests, and a mood-based UI. This project was a testament to my passion for UI/UX design and functionality.",
+      image:
+        "https://edu.ieee.org/in-nmimsnavimumbai/wp-content/uploads/sites/993/2024/07/image-removebg-preview-21.png",
+      links: [],
+    },
+    {
+      title: "Bit N Build (GDSC CRCE)",
+      dates: "February 24 - 25, 2024",
+      location: "Mumbai, Maharashtra, India",
+      description:
+        "Designed an anti-corruption reporting platform leveraging Web3 for secure, anonymous, and transparent reporting. Advanced to the final round, creating a decentralized farmer-supplier marketplace with smart contracts and a farmer-friendly UI. This hackathon marked the beginning of my journey in impactful tech solutions.",
+      image: "https://bitnbuild.vercel.app/favicon.ico",
       links: [],
     },
   ],
