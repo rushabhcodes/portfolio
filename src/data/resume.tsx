@@ -83,8 +83,7 @@ export const DATA = {
       start: "Jul 2025",
       end: "Sep 2025",
       description:
-        "Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.",
-    },
+        "Project: PlantOps Knowledge Engine — developed an on-prem LLM assistant tailored for plant staff to securely query manuals and SOPs without internet access. Implemented model packaging, optimized local inference for edge deployment, a secure UI, and role-based access controls."    },
   ],
 
   education: [
