@@ -74,6 +74,18 @@ export const DATA = {
 
   work: [
     {
+      company: "tscircuit",
+      href: "https://tscircuit.com",
+      badges: [],
+      location: "Remote",
+      title: "Open-Source Maintainer (Level 1)",
+      logoUrl: "https://avatars.githubusercontent.com/u/111661322?v=4",
+      start: "Nov 2025",
+      end: "Present",
+      description:
+        "Contributed across the tscircuit core PCB-design engine, parametric JSCAD electronics models, a Monaco Code Editor package for multi-file TypeScript workspaces, and Circuit JSON to 3D PNG rendering; improved routing, fabrication, schematic connectivity, and 3D visualization reliability.",
+    },
+    {
       company: "Adani, Thermal Power Plant",
       href: "https://atomic.finance",
       badges: [],
@@ -83,7 +95,8 @@ export const DATA = {
       start: "Jul 2025",
       end: "Sep 2025",
       description:
-        "Project: PlantOps Knowledge Engine — developed an on-prem LLM assistant tailored for plant staff to securely query manuals and SOPs without internet access. Implemented model packaging, optimized local inference for edge deployment, a secure UI, and role-based access controls."    },
+        "Project: PlantOps Knowledge Engine — developed an on-prem LLM assistant tailored for plant staff to securely query manuals and SOPs without internet access. Implemented model packaging, optimized local inference for edge deployment, a secure UI, and role-based access controls.",
+    },
   ],
 
   education: [
