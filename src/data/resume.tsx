@@ -10,8 +10,8 @@ export const DATA = {
   description:
     "Software Engineer at tscircuit, building full-stack applications and open-source developer tools. Passionate about building impactful products and empowering communities.",
   summary:
-    "I'm a Software Engineer at tscircuit, where I moved from a freelance Maintainer role to a full-time engineering role in September 2026. My work spans full-stack applications, open-source contributions, and electronics design tooling. I enjoy building useful products, improving the developer experience, and learning through collaboration.",
-  avatarUrl: "/me.jpg",
+    "I'm a Software Engineer at tscircuit, building open-source tools for electronics design. My work spans full-stack applications and developer tooling. I enjoy building useful products, improving the developer experience, and learning through collaboration.",
+  avatarUrl: "/profile.png",
   skills: [
     "JavaScript",
     "TypeScript",
