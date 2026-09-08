@@ -8,9 +8,9 @@ export const DATA = {
   location: "Mumbai, India",
   locationLink: "https://www.google.com/maps/place/Mumbai",
   description:
-    "Fullstack wizard, converts air into code. Passionate about building impactful products and empowering communities.",
+    "Software Engineer at tscircuit, building full-stack applications and open-source developer tools. Passionate about building impactful products and empowering communities.",
   summary:
-    "I'm currently pursuing a degree in Computer Engineering and constantly exploring new technologies. I enjoy learning, contributing to open source, developing tools that improve the developer experience, and participating in hackathons to challenge myself and learn by doing.",
+    "I'm a Software Engineer at tscircuit, where I moved from a freelance Maintainer role to a full-time engineering role in September 2026. My work spans full-stack applications, open-source contributions, and electronics design tooling. I enjoy building useful products, improving the developer experience, and learning through collaboration.",
   avatarUrl: "/me.jpg",
   skills: [
     "JavaScript",
@@ -76,12 +76,23 @@ export const DATA = {
     {
       company: "tscircuit",
       href: "https://tscircuit.com",
-      badges: [],
+      badges: ["Full-time"],
       location: "Remote",
-      title: "Open-Source Maintainer (Level 1)",
+      title: "Software Engineer",
       logoUrl: "https://avatars.githubusercontent.com/u/111661322?v=4",
-      start: "Nov 2025",
+      start: "Sep 2026",
       end: "Present",
+      description: "",
+    },
+    {
+      company: "tscircuit",
+      href: "https://tscircuit.com",
+      badges: ["Freelance"],
+      location: "Remote",
+      title: "Maintainer",
+      logoUrl: "https://avatars.githubusercontent.com/u/111661322?v=4",
+      start: "Dec 2025",
+      end: "Sep 2026",
       description:
         "Contributed across the tscircuit core PCB-design engine, parametric JSCAD electronics models, a Monaco Code Editor package for multi-file TypeScript workspaces, and Circuit JSON to 3D PNG rendering; improved routing, fabrication, schematic connectivity, and 3D visualization reliability.",
     },
